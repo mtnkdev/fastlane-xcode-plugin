@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8288AFA1B611EE4005DA35C /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8288AF91B611EE4005DA35C /* AppKit.framework */; };
+		C8288AFC1B611EE4005DA35C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8288AFB1B611EE4005DA35C /* Foundation.framework */; };
+		C8288B011B611EE4005DA35C /* FastlaneXcodePlugin.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = C8288B001B611EE4005DA35C /* FastlaneXcodePlugin.xcscheme */; };
+		C8288B041B611EE4005DA35C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8288B031B611EE4005DA35C /* AppDelegate.m */; };
+		C8288B071B611EE4005DA35C /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C8288B061B611EE4005DA35C /* NSObject_Extension.m */; };
+		C8370DDC1B6155A000FC7A22 /* LanesController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8370DDB1B6155A000FC7A22 /* LanesController.m */; };
+		C8370DDE1B6155D600FC7A22 /* LanesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8370DDD1B6155D600FC7A22 /* LanesView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C8288AF61B611EE4005DA35C /* FastlaneXcodePlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastlaneXcodePlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8288AF91B611EE4005DA35C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		C8288AFB1B611EE4005DA35C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		C8288AFF1B611EE4005DA35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8288B001B611EE4005DA35C /* FastlaneXcodePlugin.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = FastlaneXcodePlugin.xcscheme; path = FastlaneXcodePlugin.xcodeproj/xcshareddata/xcschemes/FastlaneXcodePlugin.xcscheme; sourceTree = SOURCE_ROOT; };
+		C8288B021B611EE4005DA35C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8288B031B611EE4005DA35C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8288B051B611EE4005DA35C /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		C8288B061B611EE4005DA35C /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		C8370DDA1B6155A000FC7A22 /* LanesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LanesController.h; path = ../LanesController.h; sourceTree = "<group>"; };
+		C8370DDB1B6155A000FC7A22 /* LanesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LanesController.m; path = ../LanesController.m; sourceTree = "<group>"; };
+		C8370DDD1B6155D600FC7A22 /* LanesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LanesView.xib; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8288AF41B611EE4005DA35C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8288AFA1B611EE4005DA35C /* AppKit.framework in Frameworks */,
+				C8288AFC1B611EE4005DA35C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8288AED1B611EE4005DA35C = {
+			isa = PBXGroup;
+			children = (
+				C8288AFD1B611EE4005DA35C /* FastlaneXcodePlugin */,
+				C8288AF81B611EE4005DA35C /* Frameworks */,
+				C8288AF71B611EE4005DA35C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8288AF71B611EE4005DA35C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8288AF61B611EE4005DA35C /* FastlaneXcodePlugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8288AF81B611EE4005DA35C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8288AF91B611EE4005DA35C /* AppKit.framework */,
+				C8288AFB1B611EE4005DA35C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8288AFD1B611EE4005DA35C /* FastlaneXcodePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				C895912F1B615296002B64A4 /* controller */,
+				C895912E1B6151B3002B64A4 /* views */,
+				C8288B021B611EE4005DA35C /* AppDelegate.h */,
+				C8288B031B611EE4005DA35C /* AppDelegate.m */,
+				C8288B051B611EE4005DA35C /* NSObject_Extension.h */,
+				C8288B061B611EE4005DA35C /* NSObject_Extension.m */,
+				C8288AFE1B611EE4005DA35C /* Supporting Files */,
+			);
+			path = FastlaneXcodePlugin;
+			sourceTree = "<group>";
+		};
+		C8288AFE1B611EE4005DA35C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8288AFF1B611EE4005DA35C /* Info.plist */,
+				C8288B001B611EE4005DA35C /* FastlaneXcodePlugin.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C895912E1B6151B3002B64A4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C8370DDD1B6155D600FC7A22 /* LanesView.xib */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		C895912F1B615296002B64A4 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C8370DDA1B6155A000FC7A22 /* LanesController.h */,
+				C8370DDB1B6155A000FC7A22 /* LanesController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8288AF51B611EE4005DA35C /* FastlaneXcodePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8288B0A1B611EE4005DA35C /* Build configuration list for PBXNativeTarget "FastlaneXcodePlugin" */;
+			buildPhases = (
+				C8288AF21B611EE4005DA35C /* Sources */,
+				C8288AF31B611EE4005DA35C /* Resources */,
+				C8288AF41B611EE4005DA35C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastlaneXcodePlugin;
+			productName = FastlaneXcodePlugin;
+			productReference = C8288AF61B611EE4005DA35C /* FastlaneXcodePlugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8288AEE1B611EE4005DA35C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Diogo Maximo";
+				TargetAttributes = {
+					C8288AF51B611EE4005DA35C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = C8288AF11B611EE4005DA35C /* Build configuration list for PBXProject "FastlaneXcodePlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C8288AED1B611EE4005DA35C;
+			productRefGroup = C8288AF71B611EE4005DA35C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8288AF51B611EE4005DA35C /* FastlaneXcodePlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8288AF31B611EE4005DA35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8370DDE1B6155D600FC7A22 /* LanesView.xib in Resources */,
+				C8288B011B611EE4005DA35C /* FastlaneXcodePlugin.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8288AF21B611EE4005DA35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8288B041B611EE4005DA35C /* AppDelegate.m in Sources */,
+				C8370DDC1B6155A000FC7A22 /* LanesController.m in Sources */,
+				C8288B071B611EE4005DA35C /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C8288B081B611EE4005DA35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		C8288B091B611EE4005DA35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		C8288B0B1B611EE4005DA35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = FastlaneXcodePlugin/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		C8288B0C1B611EE4005DA35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = FastlaneXcodePlugin/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8288AF11B611EE4005DA35C /* Build configuration list for PBXProject "FastlaneXcodePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8288B081B611EE4005DA35C /* Debug */,
+				C8288B091B611EE4005DA35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8288B0A1B611EE4005DA35C /* Build configuration list for PBXNativeTarget "FastlaneXcodePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8288B0B1B611EE4005DA35C /* Debug */,
+				C8288B0C1B611EE4005DA35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8288AEE1B611EE4005DA35C /* Project object */;
+}
